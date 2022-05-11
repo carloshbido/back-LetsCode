@@ -19,3 +19,8 @@ Após inserir os valores no arquivo .env, dê os seguintes comandos
 ``` 
 
 As requisições serão respondidas em http://localhost:5000.
+
+
+### 🤝 Observações
+No SQLite quando faço uma INSERT INTO, a ferramenta não me retorna o id do objeto recém criado. Devido a isso, tive que criar dentro do CardRepository um método que me retorna o último id criado de forma "palitiva". Essa alternativa não seria aceita em um sistema com muitas requisições ao mesmo tempo, para isso também não usariamos o SQLite =) , mas como é um teste, acho que não há problema!
+
