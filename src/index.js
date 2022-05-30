@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 5000
 
 // Express format Data middlewares
 app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
 
 //Routes
 app.use('/login', require('./Routes/login'))
