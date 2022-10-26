@@ -1,4 +1,6 @@
-# Backend para desafio LetsCode
+## Backend para desafio Ada
+
+Desafio técnico realizado para a Ada / Lets Code
 
 Para iniciar o projeto
 
